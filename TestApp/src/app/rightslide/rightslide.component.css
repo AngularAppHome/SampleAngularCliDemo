@@ -1,0 +1,16 @@
+#r{
+    width: 50%;
+    height:300px;
+    text-align: center;
+    background-color: rgb(162, 181, 238);
+    color:white;
+    float: right;
+    font-size: 20px;
+    }
+    #l{
+        width: 50%;
+        height:300px;
+        float: left;
+        background-color:white;        
+        }
+   
