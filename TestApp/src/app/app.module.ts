@@ -7,6 +7,8 @@ import { BodyComponent } from './body/body.component';
 import { LeftsideComponent } from './leftside/leftside.component';
 import { RightslideComponent } from './rightslide/rightslide.component';
 import { FooterComponent } from './footer/footer.component';
+import { Angular2FontawesomeModule } from 'angular2-fontawesome/angular2-fontawesome'
+ 
 
 @NgModule({
   declarations: [
@@ -16,9 +18,11 @@ import { FooterComponent } from './footer/footer.component';
     LeftsideComponent,
     RightslideComponent,
     FooterComponent
+  
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    Angular2FontawesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
