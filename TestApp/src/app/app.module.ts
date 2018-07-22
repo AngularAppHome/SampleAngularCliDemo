@@ -8,6 +8,7 @@ import { LeftsideComponent } from './leftside/leftside.component';
 import { RightslideComponent } from './rightslide/rightslide.component';
 import { FooterComponent } from './footer/footer.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,7 +16,7 @@ import { FooterComponent } from './footer/footer.component';
     BodyComponent,
     LeftsideComponent,
     RightslideComponent,
-    FooterComponent
+    FooterComponent    
   ],
   imports: [
     BrowserModule
