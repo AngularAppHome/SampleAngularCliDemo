@@ -1,35 +1,83 @@
-<div>
-  <h1>Yora Technologies Group</h1>
-  <ul>
-    <ol>
-      yogesh
-    </ol>
-    <ol>
-      joythi
-    </ol>
-    <ol>
-      vipin
-    </ol>
-    <ol>
-    vijaya
-    </ol>
-    <ol>
-      akash
-    </ol>
-    <ol>
-      nari
-    </ol>
-    <ol>
-      seshu
-    </ol>
-    <ol>
-      gopi
-    </ol>
-    <ol>
-      manisha
-    </ol>
-    <ol>
-      krishna
-    </ol> 
-  </ul>
+<h1>Yora Technologies Menu</h1>
+<div id="parent">
+    <div id="wide">
+      <div style="width:80%;height:300px">
+        <h2>Yora Menu</h2>
+        <ul>
+          <li><a (click)="ShowButton()">Home</a></li>
+          <li><a (click)="HideButton()">News</a></li>
+          <li><a (click)="LikeButton()">Contact</a></li>
+          <li><a (click)="SetButton()">AboutUs</a></li>
+          <li><a (click)="supportButton()">Services</a></li>
+          <li><a (click)="BlogButton()">Technologies</a></li>
+          <li><a (click)="ToolsButton()">Tools</a></li>
+
+          
+        </ul>
+      </div></div>
+      
+    <div id="narrow"><div style="Width:30%;height:40%;">
+        <div *ngIf="showSelected">
+          <h2 style ="color:red;" >HOME</h2>	
+               <p style="width:400px"> 
+                  YORA TECH is proud to be a “Total Software Solution Provider” in the arena of Information Technology. We are professionally managed Software Development Team with a passion for innovation .The team, rich in experience, work in a serene, friendly ambience, highly motivated and committed professionals . To provide high quality, timely and cost-effective software solution. 
+                  Bundled with feature such as strengthen with an uncompromising sprit for a quality, lasting customer support and relationship, customer required projects with maximum utility within their budget in no time.
+                  </p>
+        </div>
+            
+        <div *ngIf="showSelectedAbout">	
+            <h2 style ="color:red;" >NEWS</h2>	
+            <p style="width:400px"> 
+                Your Google Account was just signed in to from a new Windows device. You're getting this email to make sure it was you.
+           </p>
+
+        </div>
+        <div *ngIf="showSelectedLike">
+            <h2 style ="color:red;" >CONTACT</h2>		
+            <p style="width:400px"> 
+                Contact us and we'll get back to you within 24 hours.
+                Bengalore, IND
+                +91 9535881835,
+                techyora@gmail.com
+            </p>
+          </div>
+        <div *ngIf="showSelectedAboutUs">
+            <h2 style ="color:red;" >ABOUTUS</h2>		
+            <p style="width:400px"> 
+                YORA TECH is proud to be a “Total Software Solution Provider” in the arena of Information Technology. We are professionally managed Software Development Team with a passion for innovation .The team, rich in experience, work in a serene, friendly ambience, highly motivated and committed professionals . To provide high quality, timely and cost-effective software solution. 
+                Bundled with feature such as strengthen with an uncompromising sprit for a quality, lasting customer support and relationship, customer required projects with maximum utility within their budget in no time.
+            </p>
+          </div>
+        <div *ngIf="showSelectedSupport">
+            <h2 style ="color:red;" >SERVICES</h2>	
+                <p style="width:400px">
+               An innovative solution to move your business at the global level. Being one of the leading app development companies, we employ visionary approach while developing mobile applications with an offer of incredible mobile experiences that help clients meet business goals and generate return on investment.
+               </p>
+        </div>
+        <div *ngIf="showSelectedBlog">
+            <h2 style ="color:red;" >TECHNOLOGIES</h2>		
+            <p style="width:400px">
+                ASP.NET|MVC|WEB API
+            </p>
+            <p style="width:400px">
+                 ANGULAR JS
+             </p>
+             <p style="width:400px">
+                SQL SERVER
+            </p>
+           
+        </div>
+        <div *ngIf="showSelectedTools">	
+              <h2 style ="color:red;" >TOOLS</h2>	
+              <p style="width:400px">
+                   Mobile Development   
+              </p>  
+              <p style="width:400px">
+                  Software development 
+             </p>  
+             <p style="width:400px">
+                Web Designing & Development   
+             </p>            
+         </div> </div>
+  </div>
 </div>
