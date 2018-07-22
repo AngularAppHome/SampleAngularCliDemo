@@ -10,6 +10,7 @@ import { FooterComponent } from './footer/footer.component';
 import { Angular2FontawesomeModule } from 'angular2-fontawesome/angular2-fontawesome'
  
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +19,6 @@ import { Angular2FontawesomeModule } from 'angular2-fontawesome/angular2-fontawe
     LeftsideComponent,
     RightslideComponent,
     FooterComponent
-  
   ],
   imports: [
     BrowserModule,
