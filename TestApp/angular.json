@@ -32,7 +32,26 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery-3.2.1.min.js",              
+              "src/assets/js/popper.min.js",              
+              "src/assets/js/main.js",
+              "src/assets/js/bootstrap.min.js",
+              "src/assets/js/plugins/bootstrap-datepicker.min.js",
+              "src/assets/js/plugins/bootstrap-notify.min.js",
+              "src/assets/js/plugins/chart.js",
+              "src/assets/js/plugins/dataTables.bootstrap.min.js",
+              "src/assets/js/plugins/fullcalendar.min.js",
+              "src/assets/js/plugins/jquery.dataTables.min.js",
+              "src/assets/js/plugins/jquery.vmap.min.js",
+              "src/assets/js/plugins/jquery.vmap.sampledata.js",
+              "src/assets/js/plugins/jquery.vmap.world.js",
+              "src/assets/js/plugins/jquery-ui.custom.min.js",
+              "src/assets/js/plugins/moment.min.js",
+              "src/assets/js/plugins/pace.min.js",
+              "src/assets/js/plugins/select2.min.js",
+              "src/assets/js/plugins/sweetalert.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -81,7 +100,26 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "src/assets/js/jquery-3.2.1.min.js",              
+              "src/assets/js/popper.min.js",              
+              "src/assets/js/main.js",
+              "src/assets/js/bootstrap.min.js",
+              "src/assets/js/plugins/bootstrap-datepicker.min.js",
+              "src/assets/js/plugins/bootstrap-notify.min.js",
+              "src/assets/js/plugins/chart.js",
+              "src/assets/js/plugins/dataTables.bootstrap.min.js",
+              "src/assets/js/plugins/fullcalendar.min.js",
+              "src/assets/js/plugins/jquery.dataTables.min.js",
+              "src/assets/js/plugins/jquery.vmap.min.js",
+              "src/assets/js/plugins/jquery.vmap.sampledata.js",
+              "src/assets/js/plugins/jquery.vmap.world.js",
+              "src/assets/js/plugins/jquery-ui.custom.min.js",
+              "src/assets/js/plugins/moment.min.js",
+              "src/assets/js/plugins/pace.min.js",
+              "src/assets/js/plugins/select2.min.js",
+              "src/assets/js/plugins/sweetalert.min.js"
+            ],
             "assets": [
               "src/favicon.ico",
               "src/assets",             

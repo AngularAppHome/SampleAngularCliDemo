@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { RightslideComponent } from './rightslide.component';
+import { InnerHeaderComponent } from './inner-header.component';
 
-describe('RightslideComponent', () => {
-  let component: RightslideComponent;
-  let fixture: ComponentFixture<RightslideComponent>;
+describe('InnerHeaderComponent', () => {
+  let component: InnerHeaderComponent;
+  let fixture: ComponentFixture<InnerHeaderComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ RightslideComponent ]
+      declarations: [ InnerHeaderComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(RightslideComponent);
+    fixture = TestBed.createComponent(InnerHeaderComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
