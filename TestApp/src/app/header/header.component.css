@@ -1,7 +1,43 @@
-div{
+#logo{
     width: 100%;
-    height:100px;
-    text-align: center;
-    background-color: cadetblue;
-    color:white;
+    
+    text-align:left;
+    background-color:blanchedalmond;
+    color:royalblue;
 }
+Menu
+{
+    width: 100%;
+    text-align: right;
+    background-color:red;
+}
+table
+{
+border:solid 2px orange;
+}
+
+input
+{
+    border: 2px solid red;
+    margin: 0;
+    padding: 3px;
+}
+button
+{
+    border: 2px solid gray;
+    margin: 0;
+    padding: 3px;
+    width: 150px;
+    height:30px;
+    background-color: green;
+}
+button:hover
+{
+    border: 2px solid gray;
+    margin: 0;
+    padding: 3px;
+    width: 150px;
+    height:30px;
+    background-color:red;
+}
+
