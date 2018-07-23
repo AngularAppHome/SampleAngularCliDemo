@@ -1,0 +1,47 @@
+
+<app-pace-progress></app-pace-progress>
+<app-header></app-header>
+<app-sidebar></app-sidebar>
+<main class="app-content"> 
+  <app-inner-header [title]="title"></app-inner-header>
+  <div class="row">
+    <div class="col-md-12">
+        <div class="tile">
+            <div class="tile-body">
+              <table class="table table-hover table-bordered" id="sampleTable">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Position</th>
+                    <th>Office</th>
+                    <th>Age</th>
+                    <th>Start date</th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let u of users">
+                    <td>{{u.name}}</td>
+                    <td>{{u.mobile}}</td>
+                    <td>Edinburgh</td>
+                    <td>61</td>
+                    <td>2011/04/25</td>
+                    <td><a (click)="onDelete({{u.id}})"><i class="app-menu__icon fa fa-play"></i></a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+    </div>
+  </div>
+</main>
+<app-footer></app-footer>
+
+  <!-- <script type="text/javascript" src="assets/js/plugins/jquery.dataTables.min.js"></script>
+  <script type="text/javascript" src="assets/js/plugins/dataTables.bootstrap.min.js"></script>   -->
+  <!-- <script type="text/javascript">
+  $(document).ready(function() {
+    $.noConflict();
+    $('#sampleTable').DataTable();
+  });
+ </script> -->

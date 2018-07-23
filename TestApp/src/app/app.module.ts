@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import {HttpClientModule} from "@angular/common/http";
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -11,6 +12,8 @@ import { InnerHeaderComponent } from './inner-header/inner-header.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { TestPageComponent } from './test-page/test-page.component';
 import { PageLoginComponent } from './page-login/page-login.component';
+import { RegistrationPageComponent } from './registration-page/registration-page.component';
+import { UserDetailComponent } from './user-detail/user-detail.component';
 
 
 @NgModule({
@@ -23,11 +26,14 @@ import { PageLoginComponent } from './page-login/page-login.component';
     SidebarComponent,
     InnerHeaderComponent,
     TestPageComponent,
-    PageLoginComponent    
+    PageLoginComponent,
+    RegistrationPageComponent,
+    UserDetailComponent    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

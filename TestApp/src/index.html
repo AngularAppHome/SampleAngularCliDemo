@@ -11,5 +11,23 @@
 </head>
 <body>
   <app-root></app-root>
+  <!-- Essential javascripts for application to work-->
+  <script src="assets/js/jquery-3.2.1.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <!-- The javascript plugin to display page loading on top-->
+  <script src="assets/js/plugins/pace.min.js"></script>
+  <!-- Page specific javascripts-->
+  <!-- Data table plugin-->
+  <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+  <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $.noConflict();
+      $('#sampleTable').DataTable();
+    });
+   </script>
+  
 </body>
 </html>
