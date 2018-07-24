@@ -15,16 +15,13 @@ export class RegistrationPageComponent implements OnInit {
   ngOnInit() {
   }
 
-  onSubmit(name,mobile) {
+  onSubmit(form) {
     console.log("on submit")
-    this.userService.createUser({name:name,mobile:mobile})
+    this.userService.createUser({name:form.name,mobile:form.mobile})
       .subscribe( data => {
         this.router.navigate(['userdetail']);
       });
       console.log("after submit")
-  }
-  onClickMe(){
-    console.log("click me")
   }
 
 }
