@@ -27,6 +27,7 @@ export class PageLoginComponent implements OnInit {
 
   onSignIn(username:string) {
     localStorage.setItem('currentUser',username);
+    this.router.navigate(['/blank']);
   }
 
 }
