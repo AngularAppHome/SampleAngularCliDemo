@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {HttpClientModule} from "@angular/common/http";
 import {FormsModule} from "@angular/forms"
+import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -15,6 +16,8 @@ import { TestPageComponent } from './test-page/test-page.component';
 import { PageLoginComponent } from './page-login/page-login.component';
 import { RegistrationPageComponent } from './registration-page/registration-page.component';
 import { UserDetailComponent } from './user-detail/user-detail.component';
+import { ReactiveFormPageComponent } from './reactive-form-page/reactive-form-page.component';
+import { ReactiveDetailPageComponent } from './reactive-detail-page/reactive-detail-page.component';
 
 
 @NgModule({
@@ -29,13 +32,16 @@ import { UserDetailComponent } from './user-detail/user-detail.component';
     TestPageComponent,
     PageLoginComponent,
     RegistrationPageComponent,
-    UserDetailComponent    
+    UserDetailComponent,
+    ReactiveFormPageComponent,
+    ReactiveDetailPageComponent    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

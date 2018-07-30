@@ -1,0 +1,32 @@
+<app-pace-progress></app-pace-progress>
+<app-header></app-header>
+<app-sidebar></app-sidebar>
+<main class="app-content">
+  <app-inner-header [title]="title"></app-inner-header>
+  <div class="row">
+    <div class="col-md-12">
+      <table  class="table table-hover table-bordered">
+          <thead>
+              <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Password</th>
+              </tr>
+            </thead>
+            <tbody>
+        <tr *ngFor="let u of users">
+          <td>{{u.firstName}}</td>
+          <td>{{u.lastName}}</td>
+          <td>{{u.email}}</td>
+          <td><span *ngIf="ishidden">*********</span>
+            <span *ngIf="!ishidden">{{u.password}}</span>
+            <a (click)="ShowHidePass()">
+              <i class="app-menu__icon fa fa-eye"></i></a></td>
+        </tr>
+            </tbody>
+      </table>
+    </div>
+  </div>
+</main>
+<app-footer></app-footer>

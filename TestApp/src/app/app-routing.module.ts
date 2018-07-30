@@ -7,6 +7,8 @@ import { TestPageComponent } from './test-page/test-page.component';
 import { PageLoginComponent } from './page-login/page-login.component';
 import { RegistrationPageComponent } from './registration-page/registration-page.component';
 import { UserDetailComponent } from './user-detail/user-detail.component';
+import { ReactiveFormPageComponent } from './reactive-form-page/reactive-form-page.component';
+import { ReactiveDetailPageComponent } from './reactive-detail-page/reactive-detail-page.component';
 
 const routes: Routes = [
   { path: 'blank', component: BlankPageComponent },
@@ -14,6 +16,8 @@ const routes: Routes = [
   { path: 'login', component:PageLoginComponent},
   { path: 'register',component:RegistrationPageComponent},
   { path: 'userdetail',component:UserDetailComponent},
+  { path: 'reactiveform',component:ReactiveFormPageComponent},
+  { path: 'reactivedetail',component:ReactiveDetailPageComponent},
   { path: '',
     redirectTo: '/login',
     pathMatch: 'full'
